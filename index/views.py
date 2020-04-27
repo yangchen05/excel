@@ -137,6 +137,8 @@ def read_table(filename=None, colnameindex=None, by_name=None, sheet_first_rows=
 
     return all_content, flag
 
+def downfile(request):
+    return render(request, 'index.html')
 
 
 def index(request):
